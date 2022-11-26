@@ -37,8 +37,8 @@ async def message_handler(event):
         if event.message.post:
             return
 
-        # if event.is_channel:return
-if event.text.startswith("/"):return 
+
+
 
         print("\n")
         print("Message Received: " + event.text)
